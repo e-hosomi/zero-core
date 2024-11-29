@@ -4,9 +4,11 @@ html {
 
 body {
   color: #24292e;
-  background: linear-gradient(90deg, #00BFFF, #87CEEB, #B0E0E6, #ADD8E6);
   font-family: "Sawarabi Mincho";
+  background-color: #FFF9EE;
 }
+
+
 
 a {
   text-decoration: none;
@@ -58,14 +60,16 @@ li {
 
 /* header */
 header {
-  max-width: 1200px;
+  /* max-width: 1200px; */
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  margin: 0 auto;
-  padding: 0 2%;
+  justify-content: space-around;
+  /* margin: 0 auto; */
+  /* padding: 0 auto; */
+  width: 100%;
   /* 私がやりたかったこと！ */
-  height: 170px;
+  height: 97px;
+  background: linear-gradient(89deg, #00BFFF, #87CEEB, #B0E0E6, #ADD8E6);
 }
 
 header ul {
